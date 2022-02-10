@@ -1,0 +1,25 @@
+.c-Button {
+  padding: 5px;
+  width: 150px;
+  height: 80px;
+  color: grey;
+  display: flex;
+  min-width: 120px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #ebebeb;
+  &--active {
+    padding: 5px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    color: white;
+    min-width: 120px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid orange;
+    background-color: rgb(255, 123, 0);
+  }
+}
